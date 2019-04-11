@@ -289,7 +289,7 @@ func HasKey(dict map[string]interface{}, key_search string) bool {
 }
 
 // Global
-var config_path = flag.String("c", "config.yaml", "Path to a config file")
+var config_path = flag.String("c", "/etc/telegram_bot/config.yaml", "Path to a config file")
 var listen_addr = flag.String("l", ":9087", "Listen address")
 var template_path = flag.String("t", "", "Path to a template file")
 var debug = flag.Bool("d", false, "Debug template")
